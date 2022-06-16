@@ -1,0 +1,8 @@
+.wow {
+  width: 100px;
+}
+
+.feature{
+  background: rgb(123,83, 170);
+  background: linear-gradient(0deg, rgba(10, 189, 28, 90) 0%, rgba(0,255,255,1) 90% );
+}

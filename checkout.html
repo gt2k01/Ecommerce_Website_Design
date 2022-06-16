@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Checkout | GT</title>
+</head>
+
+<body id="top">
+  <section class="header-menu" id="header-menu">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <a class="navbar-brand" href="index.html"><b>GT</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="category.html">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>-->
+          </ul>
+          <div class="search-mr3">
+            <a href="search.html" class="btn btn-sm btn-outline-primary">
+              Search </a>
+          </div>
+          <div class="cart" style="padding-left:20px">
+            <a href="cart.html">
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <span class="badge badge-pill badge-primary">24</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ==============Checkout starts here============== -->
+  <section class="Checkout py-5 my-5" id="Checkout">
+    <div class="container ">
+      <div class="section_title text-center mb-5">
+        <h1 class="text-capitalize">Checkout</h1>
+      </div>
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-8">
+          <!-- Card -->
+          <div class="card bg_checkout_1 pb-5">
+            <div class="card-body">
+              <h5 class="mb-5">Billing details</h5>
+              <!-- Grid row -->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-lg-6">
+                  <!-- First name -->
+                  <div class="form-group mb-0 mb-lg-4">
+                    <label for="firstName">First name</label>
+                    <input type="text" id="firstName" class="form-control mb-0 mb-lg-2">
+                  </div>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-lg-6">
+                  <!-- Last name -->
+                  <div class="form-group md-outline">
+                    <label for="lastName">Last name</label>
+                    <input type="text" id="lastName" class="form-control">
+                  </div>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="form18">Phone</label>
+                <input type="number" id="form18" class="form-control">
+              </div>
+              <!-- Email address -->
+              <div class="form-group">
+                <label for="form19">Email address</label>
+                <input type="email" id="form19" class="form-control">
+              </div>
+              <!-- Country -->
+              <div class="d-flex flex-wrap">
+                <div class="w-100">
+                  <label>Country</label>
+                  <select class="custom-select form-group">
+                    <option value="" selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                </div>
+              </div>
+              <!-- Address Part 1 -->
+              <div class="form-group">
+                <label for="form14">Address Line 1</label>
+                <input type="text" id="form14" placeholder="House number and street name" class="form-control">
+              </div>
+              <!-- Address Part 2 -->
+              <div class="form-group">
+                <label for="form15">Address Line 2</label>
+                <input type="text" id="form15" placeholder="Apartment, suite, unit etc. (optional)" class="form-control">
+              </div>
+              <!-- Postcode / ZIP -->
+              <div class="form-group">
+                <label for="form16">Postcode / ZIP</label>
+                <input type="text" id="form16" class="form-control">
+              </div>
+              <!-- Town / City -->
+              <div class="form-group">
+                <label for="form17">Town / City</label>
+                <input type="text" id="form17" class="form-control">
+              </div>
+              <!-- Additional information -->
+              <div class="form-group">
+                <label for="form76">Additional information</label>
+                <textarea id="form76" class="md-textarea form-control" rows="4"></textarea>
+              </div>
+              <!-- <button class="btn btn-success"><i class="fa fa-check"></i>
+Purchase</button> -->
+              <div class="text-center">
+                <a href="order_confirmation.html" class="btn btn-primary">
+                  <i class="fa fa-check mr-2"></i>Purchase
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-lg-4 bg_checkout_1 h-25 rounded">
+          <!-- Card -->
+          <div class="mb-3">
+            <div class="pt-4">
+              <h5 class="mb-3">Order summary</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-2">
+                  <span>Product name 1</span>
+                  <span>x2</span>
+                  <span>₹25.98</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-2">
+                  <span>Product name 2</span>
+                  <span>x2</span>
+                  <span>₹25.98</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center border-top px-0 mb-3">
+                  <div>
+                    <strong>Total amount</strong>
+                    <strong>
+                      <p class="mb-0">(including VAT)</p>
+                    </strong>
+                  </div>
+                  <span><strong>₹53.98</strong></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Card -->
+        </div>
+        <!--Grid column-->
+      </div>
+    </div>
+  </section>
+  <!-- ==============Checkout ends here============== -->
+
+
+  <section class="footer_section pt-5 pb-2" id="footer_section">
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-6  pl-5 pl-small-15 ">
+            <div class="footer_title">
+              <a href=index.html>GT</a>
+            </div>
+            <div>Our company serves you, serves you excellence</div>
+          </div>
+          <div class="col-md-3 col-6 ">
+            <div class="footer_title pt-3 mb-3">
+              <a href=index.html>Quick Links</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 ">
+            <div class="footer_title pt-3 mb-3">
+              <a href=index.html>New Products</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 ">
+            <div class="footer_title pt-3 mb-3">
+              <a href=index.html>Support</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border-top">
+        <h6 class="text-center mt-3">Copyright ©2022 All rights reserved>
+        </h6>
+      </div>
+    </footer>
+  </section>
+
+  <div class="backtop">
+    <a id="button" href="#top" class="btn btn-lg btn-outline-danger" role="button">
+      <i class="fas fa-chevron-up text-dark"></i>
+    </a>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

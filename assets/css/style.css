@@ -1,0 +1,13 @@
+.feature{
+  background: rgb(123,83, 170);
+  background: linear-gradient(0deg, rgba(10, 189, 28, 90) 0%, rgba(0,255,255,1) 90% );
+}
+
+.cartmain{
+  background: rgb(255,150, 150);
+}
+
+.bg_checkout_1{
+    background: #8EC5F0;
+    background: linear-gradient(45deg, #8EC5F0 0%, #E0C30C 100% );
+}
